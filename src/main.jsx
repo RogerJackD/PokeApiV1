@@ -9,7 +9,9 @@ import { MultiplesPokemon } from './03-examples/MultiplesPokemon';
 
 //import { CounterApp } from './01-useState/CounterApp';
 createRoot(document.getElementById('root')).render(
-    <>
-    <MultiplesPokemon/>
-    </>
+    
+    
+    <React.StrictMode>
+        <MultiplesPokemon/>
+    </React.StrictMode>
 )
